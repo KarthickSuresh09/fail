@@ -16,6 +16,7 @@ resource "aws_db_instance" "mysql" {
 
   instance_class = "db.t3.micro"
 
+  storage_type = "gp3"
   allocated_storage = 20
 
   db_name  = "appdb"
