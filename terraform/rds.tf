@@ -12,7 +12,7 @@ resource "aws_db_instance" "mysql" {
 
   identifier     = "dynatrace-mysql"
   engine         = "mysql"
-  engine_version = "8.0"
+  engine_version = "8.0.36"
 
   instance_class = "db.t3.micro"
 
