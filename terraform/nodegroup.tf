@@ -16,7 +16,7 @@ resource "aws_eks_node_group" "worker_nodes" {
     max_size     = 4
   }
 
-  instance_types = ["t3.medium"]
+  instance_types = ["t3.small"]
 
   depends_on = [
     aws_iam_role_policy_attachment.worker1,
